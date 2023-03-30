@@ -1,13 +1,110 @@
 :root {
-    --basic-color: #2E2F42
+    /*Text color*/
+    --basic-color: #2E2F42;
+    --logo-web-color: #4D5AE5;
+    --links-hover-color: #404BBF;
 }
 
-.menu-links, 
-.address-links{
+/*reset*/
+.style-reset{
+    list-style: none;
+    text-decoration: none;
+}
+
+.links-hover:hover{
+    color: var(--links-hover-color);
+}
+
+/**
+  |============================
+  | STUDIO index.html
+  |============================
+*/
+
+/*==========BODY=============*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+/*         /BODY             */
+
+/*==========HEADER=============*/
+
+/*==========LOGO=============*/
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+
     color: var(--basic-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
 }
 
+.logo-web {
+    color: var(--logo-web-color);
+}
+
+/*         /LOGO             */
+
+/*==========MENU ADDRESS=============*/
+.menu-link,
+.address-link,
+.mailto-link,
+ .fone-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+}
+
+/*         /MENU ADDRESS            */
+
+/*         /HEADER             */
+
+/*==========MAIN=============*/
+
+/*==========HERO=============*/
+.hero-title{
+    font-family: 'Roboto';
+    font-size: 56px;
+    line-height: 1;
+     
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+
+/*         /HERO             */
+
+/*         /MAIN             */
+
+/*==========FOOTER=============*/
+
+
+/*         /FOOTER             */
+
+
+/**
+  |============================
+  | PORTFOLIO portfolio.html
+  |============================
+*/
+
+/*==========HEADER=============*/
+
+
+/*         /HEADER             */
+
+/*==========MAIN=============*/
+
+
+/*         /MAIN             */
+
+/*==========FOOTER=============*/
+
+
+/*         /FOOTER             */
