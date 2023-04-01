@@ -14,16 +14,20 @@
 }
 
 /*hover*/
-.links-hover:hover {
+.links-hover:hover,
+.links-hover:focus {
     color: var(--links-hover-color);
 }
 
 .hero-button:hover,
-.topic-button:hover {
+.topic-button:hover,
+.hero-button:focus,
+.topic-button:focus {
     background: var(--links-hover-color);
 }
 
-.topic-button:hover {
+.topic-button:hover,
+.topic-button:focus {
     color: #FFFFFF;
 }
 /**
@@ -70,7 +74,7 @@ body {
 .menu-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--basic-color);
 }
