@@ -83,8 +83,7 @@ body {
     color: var(--basic-color);
 }
 
-.mailto-link,
- .fone-link {
+.addr-link {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
