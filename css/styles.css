@@ -60,17 +60,14 @@ body {
     color: var(--logo-web-color);
 }
 
-.logo-web {
+.logo-studio {
     color: var(--basic-color);
 }
 
 /*         /LOGO             */
 
-/*        MENU ADDRESS       */
-.menu-link,
-.address-link,
-.mailto-link,
- .fone-link {
+/*        MENU/ADDRESS       */
+.menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
@@ -78,17 +75,31 @@ body {
     color: var(--basic-color);
 }
 
-/*       /MENU ADDRESS       */
+.mailto-link,
+ .fone-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/*       /MENU/ADDRESS       */
 
 /*          /HEADER          */
 
 /*==========MAIN=============*/
 
 /*          HERO             */
-.hero-title{
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
     font-family: inherit;
     font-size: 56px;
-    line-height: 1;  
+    line-height: 1.07;  
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -98,6 +109,7 @@ body {
     font-family: inherit;
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
 
@@ -109,15 +121,18 @@ body {
 /*          ABOUT            */
 
 .about-title,
-.man-title{
+.man-title {
+    color: var(--basic-color);
     font-weight: 500;
     font-size: 20px;
+    text-align: start;
+    text-transform: capitalize;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .about-text,
-.team-text{
+.team-text {
     color: var(--text-color);
 }
     
@@ -125,25 +140,40 @@ body {
 
 /*          EXAMPLE          */
 .example-title,
-.team-title{
+.team-title {
+    color: var(--basic-color);
+    text-align: center;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 /*         /EXAMPLE          */
 
 /*          TEAM          */
-
+.team{
+    background-color: #F4F4FD
+}
+.team-list {
+    background-color:#FFFFFF;
+}
 /*         /TEAM          */
 
 /*           /MAIN           */
 
 /*==========FOOTER=============*/
-.footer-text{
+.footer-text {
     color: var(--portfolio-button-background-color);
 }
 
+.page-footer {
+    background-color:var(--basic-color);
+}
+
+.footer-studio {
+    color: #f4f4fd;
+}
 /*         /FOOTER             */
 
 
@@ -174,14 +204,14 @@ body {
 /*          /ABOUT           */
 
 /*          GALLERY            */
-.gallery-title{
+.gallery-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.gallery-text{
+.gallery-text {
     color:var(--text-color);
 }
 /*          /GALLERY            */
