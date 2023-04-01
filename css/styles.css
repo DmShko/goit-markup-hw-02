@@ -75,7 +75,8 @@ body {
 /*         /LOGO             */
 
 /*        MENU/ADDRESS       */
-.menu-link {
+.menu-link,
+.menu-item {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
