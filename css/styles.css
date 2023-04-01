@@ -11,10 +11,15 @@
     text-decoration: none;
 }
 
-.links-hover:hover{
+/*hover*/
+.links-hover:hover
+{
     color: var(--links-hover-color);
 }
 
+.hero-button:hover{
+    background: var(--links-hover-color);
+}
 /**
   |============================
   | STUDIO index.html
@@ -24,20 +29,25 @@
 /*==========BODY=============*/
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 /*         /BODY             */
 
 /*==========HEADER=============*/
 
-/*==========LOGO=============*/
+/*           LOGO              */
 
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1;
-
+    letter-spacing: 0.03em;
     color: var(--basic-color);
 }
 
@@ -47,7 +57,7 @@ body {
 
 /*         /LOGO             */
 
-/*==========MENU ADDRESS=============*/
+/*        MENU ADDRESS       */
 .menu-link,
 .address-link,
 .mailto-link,
@@ -59,31 +69,71 @@ body {
     color: var(--basic-color);
 }
 
-/*         /MENU ADDRESS            */
+/*       /MENU ADDRESS       */
 
-/*         /HEADER             */
+/*          /HEADER          */
 
 /*==========MAIN=============*/
 
-/*==========HERO=============*/
+/*          HERO             */
 .hero-title{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-size: 56px;
-    line-height: 1;
-     
+    line-height: 1;  
     text-align: center;
     letter-spacing: 0.02em;
-    
     color: #FFFFFF;
 }
 
+.hero-button {
+    font-family: inherit;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
+    cursor: pointer;
+    background: #4D5AE5;
+}
 /*         /HERO             */
 
-/*         /MAIN             */
+/*          ABOUT            */
+
+.about-title,
+.man-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.about-text,
+.team-text{
+    color:#434455;
+}
+    
+/*         /ABOUT            */
+
+/*          EXAMPLE          */
+.example-title,
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+/*         /EXAMPLE          */
+
+/*          TEAM          */
+
+/*         /TEAM          */
+
+/*           /MAIN           */
 
 /*==========FOOTER=============*/
-
+    .footer-text{
+        color: #F4F4FD;
+    }
 
 /*         /FOOTER             */
 
